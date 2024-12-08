@@ -4,4 +4,4 @@ def double_number(number: int) -> int:
     :param number: The number to double.
     :return: The doubled number.
     """
-    return number * 4
+    return number * 2
