@@ -1,5 +1,5 @@
 import time
-def Soup(number: int):
+def soup(number: int):
     current_time = time.time + 32400
     #UTCからJSTに変換
     current_day = current_time/86400
