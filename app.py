@@ -1,10 +1,11 @@
 import time
 
+
 def soup(number):
     current_time = time.time() + 32400
-    #UTCからJSTに変換
-    current_day = current_time//86400
-    menu_number = (current_day + number -19936)%4
+    # UTCからJSTに変換
+    current_day = current_time // 86400
+    menu_number = (current_day + number - 19936) % 4
     if menu_number == 0:
         result = "Soy Sauce Seaweed"
     if menu_number == 1:
