@@ -6,7 +6,7 @@ Gitに慣れ、TDDを行うためのプロジェクト
 * TDDを行う。
 * 自分にとって有益な制作物を作る。
 
-## プロジェクトの流れ
+## 作業の流れ
 * ci.ymlを作って直接mainにpush
 * developブランチを作ってtest_app.pyとrequirements.txtを追加，commit
 * app.pyを作ってcommit
@@ -14,5 +14,6 @@ Gitに慣れ、TDDを行うためのプロジェクト
 * github上からdevelop⇒mainのプルリクエストを発行
 * actionsが動くことを確認
 
-##　app.pyの中身
-目的
+## app.pyの中身
+### 目的
+最寄りのバーミアンのスープバーが塩味の日だけ行きたい。
