@@ -1,9 +1,9 @@
-from app import double_number
+from app import soup
 
 
-def test_double_number():
-    assert double_number(2) == 4  # 正常ケース
-    assert double_number(-3) == -6  # 負の値
-    assert double_number(0) == 0  # ゼロ
-    assert double_number(100) == 200  # 大きな数
-    assert double_number(-100) == -200  # 負の大きな数
+def test_soup():
+    assert soup(0) == 'Soy Sauce Egg'  # 今日のスープ
+    assert soup(-2) == 'Soy Sauce Seaweed'  # 負の値
+    assert soup(1) == 'Salt Egg!!!'  # 正の値
+    assert soup(365) == 'Salt Egg!!!'  # 大きな正の値
+    assert soup(-365) == 'Salt Seaweed!!!'  # 負の大きな値
