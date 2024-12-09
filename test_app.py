@@ -1,5 +1,6 @@
 from app import soup
 
+
 def soup():
     assert soup(0) == 'Soy Sauce Egg'  # 今日のスープ
     assert soup(-2) == 'Soy Sauce Seaweed'  # 負の値
